@@ -30,7 +30,6 @@ img {
     transition: 0.3s;
     padding: 16px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
 }
 
 .card:hover {

@@ -10,6 +10,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 header {
   display: block;
   width: 100%;
@@ -29,8 +30,6 @@ footer{
     text-align: center;
   }
 
-
-
 .nav {
   display: flex;
   align-items: center;
@@ -47,6 +46,7 @@ footer{
   padding: 20px 35px;
 
 }
+
 .navbar a {
   color: #66fcf1;
   font-size: 17px;
@@ -54,35 +54,35 @@ footer{
   font-weight: 500;
   border-bottom: none;
 }
+
 .navbar a:hover,
 .navbar .active {
   color: #66fcf1;
   border-bottom: 3px solid #d8e2e1;;
 }
+
 #menu-icon {
   font-size: 24px;
   cursor: pointer;
   color: var(--text-color);
   display: none;
 }
+
 .logo {
   font-size: 30px;
   font-weight: 700;
   color: #66fcf1;
 }
+
 .logo span {
-    color: #66fcf1;
+  color: #66fcf1;
 }
+
 section {
   padding: 4rem 0 2rem;
-
 }
 
-
-
 /* This is where you'll be working :) */
-
-
 img{
   max-width: auto;
   margin: auto;
@@ -94,8 +94,6 @@ img{
   background-size: cover;
   background-position: center left;
 }
-
-
 
 .projects{
   text-align: center;
@@ -116,9 +114,6 @@ img{
   min-height: 400px;
 }
 
-
-
-
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {
@@ -126,6 +121,7 @@ img{
     margin-right: 1rem;
   }
 }
+
 @media (max-width: 991px) {
   .nav {
     padding: 15px 20px;
@@ -134,8 +130,6 @@ img{
 }
 
 @media (max-width: 768px) {
-
-
   #menu-icon {
     display: initial;
   }
@@ -152,7 +146,6 @@ img{
     box-shadow: 4px 4px 20px rgb(15 54 55 / 20%);
     clip-path: circle(0% at 0% 0%);
     transition: 0.6s;
-    
   }
   .navbar a {
     display: block;
@@ -168,11 +161,11 @@ img{
   .navbar.active {
     clip-path: circle(144% at 0% 0%);
   }
-
 }
 @media (max-width: 727px) {
 
 }
+
 @media (max-width: 607px) {
   .footer-container {
     display: grid;

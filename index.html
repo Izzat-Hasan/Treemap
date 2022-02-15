@@ -1,84 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css' rel='stylesheet' >
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
-    <!--Page Heading-->
-    <h1>WubALubADubDubs</h1>
-    <hr>
 
-    <!--creating imagemaps within group picture-->
-    <h2>Meet The Team</h2>
+    <title>Team Site</title>
+</head>
+<body>
+    <header>
+        <div class = "nav container">
+            <i class='bx bx-menu' id = "menu-icon"></i>
+            <p  class="logo">WubALubADub<span>Dubs</span></p>
+            <ul class="navbar">
+              <li><a href="#Treemap" class="active">Image Mapping</a></li>
+              <li><a href="#GTKU">Get to Know us</a></li>
+              <li><a href="#Projects">Team Projects</a></li>
+        
+              
+              
+              </ul>
+          </div>
+    </header>
 
-    <img src="groupPicture.jpg" alt="groupPicture" usemap="#groupmap">
-    <map name="groupmap">
-        <!--for coords, we just need to find top left + bottom right corner of a rectangle with each of us in the pic(respectively), href is your GTKY page-->
-        <!--Izzy-->
-        <area shape="rect" coords="" href="">
-        <!--Katie-->
-        <area shape="rect" coords="" href="">
-        <!--Mike-->
-        <area shape="rect" coords="" href="https://orange-stone-02f9d1c10.1.azurestaticapps.net">
-        <!--Shane-->
-        <area shape="rect" coords="" href="">
-    </map>
-    <hr>
+    <!-- This is just a practice test on the img mapping. Insert our picture here  -->
+    <section class ="treemap" id="Treemap">
+        <img src="img/team.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
-    <!--GTKY areas-->
-    <h2>Our Getting To Know Each Other Links</h2>
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/html/html_images_imagemap.asp">
 
-    <!--Izzy link-->
-    <a href="https://www.epicgames.com/fortnite/en-US/home">Izzat Hasan</a>
-    <br>
+        </map>
+    </section>
 
-    <!--Katie link-->
-    <br>
-    <a href="https://www.epicgames.com/fortnite/en-US/home">Katie Knutson</a>
-    <br>
+    <section class ="GTKU" id="GTKU">
+        <H1>Get To Know Us</H1>
+    </section>
 
-    <!--Mike link-->
-    <br>
-    <a href="https://orange-stone-02f9d1c10.1.azurestaticapps.net">Mike Arrigo</a>
-    <br>
 
-    <!--Shane link-->
-    <br>
-    <a href="https://www.epicgames.com/fortnite/en-US/home">Shane Frantz</a>
-    <br>
-    <hr>
 
-    <!--Team sprints organized-->
-    <div class="card">
-        <h4>Sprint 4</h4>
-        <p>assignment links here</p>
-    </div>
-    <br>
 
-    <div class="card">
-        <h4>Sprint 5</h4>
-        <p>assignment links here</p>
-    </div>
-    <br>
 
-    <div class="card">
-        <h4>Sprint 6</h4>
-        <p>assignment links here</p>
-    </div>
-    <br>
+    <section class ="projects" id="Projects">
+        <H1>Team Projects</H1>
+    </section>
 
-    <div class="card">
-        <h4>Sprint 7</h4>
-        <p>assignment links here</p>
-    </div>
-    <br>
 
-     <div class="card">
-        <h4>Sprint 8</h4>
-        <p>assignment links here</p>
-    </div>
-    <br>
+    <footer>
+        <p> copyright &copy; 2022 </p>
+      </footer>
+    </footer>
 
-    <!--creating bottom of page marker-->
-    <h3>Created by Michael Arrigo, Izzat Hasan, Katie Knutson, and Shane Frantz</h3>
+
+</body>
 </html>

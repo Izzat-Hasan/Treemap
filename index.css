@@ -82,6 +82,9 @@ section {
   padding: 4rem 0 2rem;
 }
 
+.x {
+  border: 1px solid rgb(0, 0, 0);
+}
 /* This is where you'll be working :) */
 img{
   max-width: auto;

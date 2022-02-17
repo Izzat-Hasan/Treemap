@@ -117,6 +117,19 @@ img{
   min-height: 400px;
 }
 
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* helps smooth distance between cards*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {

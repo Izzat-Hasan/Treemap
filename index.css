@@ -79,7 +79,7 @@ footer{
 }
 
 section {
-  padding: 4rem 0 2rem;
+  padding: 4rem 0 0rem;
 }
 
 .x {
@@ -89,7 +89,7 @@ section {
 img{
   max-width: auto;
   margin: auto;
-  width: 100%;
+  width: 1600px;
   min-height: 800px;
   display: flex;
   align-items: center;
